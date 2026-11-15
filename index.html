@@ -326,7 +326,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
       <p class="eyebrow">Mechanical Engineering · Sheridan College</p>
       <h1>Khaleel<br>Siddiqi</h1>
       <div class="dim" aria-hidden="true"><span>&#9666;</span><span class="bar"></span><span>&#9656;</span></div>
-      <p class="lede">Second-year Mechanical Engineering student at Sheridan College. I model parts in SolidWorks, simulate control circuits, and build and troubleshoot real hardware: from winch drives and wind turbines to racing simulator rigs, go-karts and drone field operations.</p>
+      <p class="lede">Second-year Mechanical Engineering student at Sheridan College. I design parts in SolidWorks, simulate control circuits and work hands-on with real hardware, from winch drives and wind turbines to racing simulator rigs, go-karts and drone operations.</p>
       <div class="actions">
         <a class="btn primary" href="#projects">View projects &darr;</a>
         <a class="btn" href="https://www.linkedin.com/in/khaleel-siddiqi-mecheng" target="_blank" rel="noopener">LinkedIn &nearr;</a>
@@ -367,9 +367,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
 
         <div class="notes two">
           <div class="note"><h4>What</h4><ul>
-            <li>Designing a small-scale winch system to lift and lower loads in a controlled manner</li>
+            <li>Designed a small-scale winch system to lift and lower loads in a controlled manner</li>
             <li>Focus on mechanical transmission, motor control, and system modelling</li>
-            <li>Developed as a virtual prototype using CAD and microcontroller simulation tools</li>
+            <li>Prototyped in CAD and circuit simulation first, then built and tested the physical winch</li>
           </ul></div>
           <div class="note"><h4>How</h4><ul>
             <li>Designed the mechanical parts, structure and spool geometry in SolidWorks</li>
@@ -377,20 +377,18 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
             <li>Explored gear ratios, torque requirements, and speed control for safe lifting</li>
           </ul></div>
           <div class="note"><h4>Features</h4><ul>
-            <li>Dual-mode operation. Speed mode: motor (60T gear) drives the spool (20T gear) via belt for higher speed</li>
-            <li>Power mode: gear configuration reversed for increased torque output</li>
+            <li>Dual-mode transmission: in speed mode, the 60T motor gear drives the 20T spool gear by belt</li>
+            <li>Power mode swaps the gears for more torque</li>
             <li>12 V DC motor with worm gear for controlled motion and load holding</li>
             <li>Potentiometer speed control with a dead zone for safe stopping</li>
             <li>Direction control through an integrated switch system</li>
             <li>H-bridge for full motor control (direction and speed)</li>
           </ul></div>
           <div class="note"><h4>Results</h4><ul>
-            <li>Speed mode gear ratio 60T : 20T = 3:1 (speed increase, torque reduction)</li>
-            <li>Power mode gear ratio 20T : 60T = 1:3 (torque increase)</li>
-            <li>Estimated motor output torque ~10–12 N·m (based on 12 V, ~12 W assumption)</li>
-            <li>Able to pull more than 10 kg</li>
-            <li>Consistent pulling force across variable speeds using potentiometer control</li>
-            <li>Effective torque amplification in power mode via gear switching</li>
+            <li>Pulled more than 10 kg</li>
+            <li>3:1 ratio in speed mode and 1:3 in power mode, giving 3× torque when switched</li>
+            <li>Estimated motor output torque of ~10–12 N·m, based on a 12 V, ~12 W motor</li>
+            <li>Held a consistent pulling force across speeds with potentiometer control</li>
           </ul></div>
         </div>
       </div>
@@ -481,10 +479,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
               <li>Iteratively adjusted blade angle and spacing to improve rotational efficiency</li>
             </ul></div>
             <div class="note"><h4>Results</h4><ul>
-              <li>Generated 4.5 volts under test conditions</li>
-              <li>Highest voltage generated in the class</li>
-              <li>Demonstrated effective energy conversion using inexpensive, accessible materials</li>
-              <li>Turbine worked effectively at high wind speeds</li>
+              <li>Generated 4.5 V under test conditions, the highest voltage in the class</li>
+              <li>Converted energy effectively using inexpensive, accessible materials</li>
+              <li>Performed well at high wind speeds</li>
             </ul></div>
           </div>
         </div>
@@ -502,14 +499,14 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
       </div>
       <div class="body">
         <div class="keys">
-          <div class="key"><span class="k">CSWA / CSWP</span><span class="tick"></span><span class="d">Practice drawings modelled automatically from their dimensions</span></div>
+          <div class="key"><span class="k">CSWA / CSWP</span><span class="tick"></span><span class="d">Practice drawings the parts are modelled from</span></div>
           <div class="key"><span class="k">VBA + COM</span><span class="tick"></span><span class="d">SolidWorks macros driven through the COM API</span></div>
-          <div class="key"><span class="k">Python</span><span class="tick"></span><span class="d">Used alongside VBA and the COM API</span></div>
+          <div class="key"><span class="k">4 builds</span><span class="tick"></span><span class="d">Macros and models made so far</span></div>
         </div>
         <div class="notes">
           <div class="note"><h4>What</h4><ul>
-            <li>An AI-assisted workflow that generates SolidWorks VBA macros to model parts automatically</li>
-            <li>Uses dimensions taken from CSWA and CSWP practice drawings as input</li>
+            <li>An AI-assisted workflow that writes SolidWorks VBA macros to model parts automatically</li>
+            <li>Takes its dimensions from CSWA and CSWP practice drawings</li>
           </ul></div>
           <div class="note"><h4>Built so far</h4><ul>
             <li>Macros for copper and zinc unit cells for a Materials Science and Engineering lab</li>
@@ -567,7 +564,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
 
         <div class="notes">
           <div class="note"><h4>What</h4><ul>
-            <li>Designed and built an autonomous robot to identify, collect, and sort coloured balls under time and accuracy constraints</li>
+            <li>Built an autonomous robot that identifies, collects and sorts coloured balls under time and accuracy limits</li>
             <li>Objective: place all red balls into a goal area while leaving blue balls undisturbed</li>
             <li>Emphasized robotics integration, control systems, and mechanical reliability</li>
           </ul></div>
@@ -578,9 +575,8 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
             <li>Tuned motor speeds and rotation logic to balance speed and positional accuracy</li>
           </ul></div>
           <div class="note"><h4>Results</h4><ul>
-            <li>Sorted all red balls into the goal area with no disturbance to blue balls</li>
-            <li>Completed the full autonomous task in 30 seconds, the fastest time in the class</li>
-            <li>Outperformed other teams by an average of 20–30 seconds, showing strong control and system optimization</li>
+            <li>Sorted every red ball into the goal without disturbing a blue ball</li>
+            <li>Finished the full autonomous run in 30 seconds, the fastest in the class and 20–30 seconds ahead of the average team</li>
           </ul></div>
         </div>
       </div>
@@ -597,17 +593,16 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
         <div class="what"><h3>Shop Supervisor</h3><p class="org">Sim Hub Race Lounge</p>
           <div class="note"><ul>
             <li>Moved 8 racing simulator rigs in and out of the shop, then set them up and supported a large-scale event for 10+ families</li>
-            <li>Diagnosed and fixed hardware and software problems on racing simulators to keep downtime low and sessions running smoothly</li>
-            <li>Built and specced out custom sim racing rigs for customers, preparing parts and helping with installation so each full simulator is turnkey for the customer</li>
-            <li>Handled rig builds from component setup through final calibration and testing</li>
+            <li>Diagnosed and fixed hardware and software issues on the simulators to keep sessions running smoothly</li>
+            <li>Specced out and built custom sim racing rigs for customers, from part preparation and installation through final calibration and testing, so each simulator is turnkey</li>
           </ul></div></div>
       </article>
       <article class="role">
         <div class="when"><b>May 2026 – Aug 2026</b><span>Corona, CA</span></div>
         <div class="what"><h3>Track Operator / Mechanic</h3><p class="org">K1 Speed</p>
           <div class="note"><ul>
-            <li>Diagnosed mechanical and performance issues on go-karts by identifying symptoms such as handling, acceleration and operational irregularities</li>
-            <li>Collaborated with mechanics to troubleshoot broken karts, helping determine root causes and final solutions to minimize repair downtime</li>
+            <li>Diagnosed mechanical and performance issues on go-karts from symptoms such as poor handling, slow acceleration and irregular operation</li>
+            <li>Worked with mechanics to troubleshoot broken karts, finding root causes and fixes to get them back on track quickly</li>
           </ul></div></div>
       </article>
       <article class="role">
@@ -615,7 +610,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
         <div class="what"><h3>Ground Crew</h3><p class="org">Illumin</p>
           <div class="note"><ul>
             <li>Solved on-site technical and logistical issues in coordination with the Pilot in Command</li>
-            <li>Supported RPAS (drone) operations during field deployments by setting up, deploying and troubleshooting aircraft</li>
+            <li>Supported RPAS (drone) operations by setting up, deploying and troubleshooting aircraft in the field</li>
             <li>Managed equipment logistics, including battery systems, to keep operations safe, reliable and efficient</li>
           </ul></div></div>
       </article>
@@ -649,7 +644,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
         <div class="note"><ul>
           <li>Maintaining above a 3.0 GPA</li>
           <li>Developed engineering design and 3D modelling skills in SolidWorks</li>
-          <li>Designed and managed multiple group projects where the final result outperformed the competition</li>
+          <li>Designed and managed group projects that outperformed the rest of the class</li>
           <li>Learned engineering drawing principles and applied geometric dimensioning and tolerancing (GD&amp;T) to mechanical designs</li>
         </ul></div></div>
     </article>
@@ -686,7 +681,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
     <div class="contact">
       <div>
         <p class="tagline" style="margin-top:0">Khaleel Siddiqi</p>
-        <p class="lede">Mechanical Engineering student at Sheridan College, based in Brampton, ON. Open to co-op, internship and project opportunities.</p>
+        <p class="lede">Open to co-op, internship and project opportunities.</p>
       </div>
       <div class="rows">
         <div class="row"><span class="lbl">Email</span><a href="mailto:khsiddiqi25@gmail.com">khsiddiqi25@gmail.com</a><button class="copy" type="button" id="copy-email" data-copy="khsiddiqi25@gmail.com">Copy</button></div>
